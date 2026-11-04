@@ -11,6 +11,8 @@ if [ ! -d "$B/quartz" ]; then
   (cd "$B/quartz" && npm ci --silent)
 fi
 cp "$ROOT/_quartz/quartz.config.ts" "$ROOT/_quartz/quartz.layout.ts" "$B/quartz/"
+cp "$ROOT/_quartz/custom.scss" "$B/quartz/quartz/styles/custom.scss"
+cp "$ROOT"/_quartz/static/* "$B/quartz/quartz/static/"
 rm -rf "$B/quartz/content" && mkdir -p "$B/quartz/content"
 rsync -a --exclude '.git' --exclude '.github' --exclude '.obsidian' --exclude '_quartz' \
   --exclude '.quartz-build' --exclude 'templates' --exclude 'README.md' "$ROOT/" "$B/quartz/content/"

@@ -1,0 +1,176 @@
+@use "./base.scss";
+@use "./variables.scss" as *;
+
+// The Table brand layer. Colors and fonts come from quartz.config.ts;
+// this file only shapes how they sit together. Brand spec: ~/thetable/brand/brand.md.
+
+:root {
+  // brand.md fallbacks
+  --headerFont: "Sansita", Georgia, serif;
+  --titleFont: "Sansita", Georgia, serif;
+  --bodyFont: "Nunito Sans", Arial, sans-serif;
+}
+
+body {
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Sidebar title: the approved white logo always sits on its own olive disc,
+// so it is on a dark ground in both modes, with clear space around the circle.
+.page-title {
+  font-size: 1.6rem;
+  line-height: 1.1;
+  letter-spacing: 0.005em;
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--dark);
+    background: none;
+
+    &::before {
+      content: "";
+      flex: 0 0 auto;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: url("/static/logo-badge.png") center / contain no-repeat;
+    }
+  }
+
+  @media all and ($mobile) {
+    font-size: 1.3rem;
+    a::before {
+      width: 44px;
+      height: 44px;
+    }
+  }
+}
+
+// Headings: Sansita Bold, a little more room to breathe than Quartz's default.
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  line-height: 1.2;
+}
+
+.article-title {
+  font-size: 2.4rem;
+  margin-top: 0.5rem;
+  @media all and ($mobile) {
+    font-size: 2rem;
+  }
+}
+
+article h2 {
+  font-size: 1.6rem;
+}
+
+article h3 {
+  font-size: 1.25rem;
+}
+
+// Body links: the cream pill plus an underline, so links never rely on color alone.
+a.internal,
+a.external {
+  font-weight: 700;
+}
+
+article a.internal,
+article a.external {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: color-mix(in srgb, var(--secondary) 45%, transparent);
+
+  &:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+// Tables read as a timeline card, not a spreadsheet.
+.table-container {
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  margin: 1.25rem 0;
+
+  & > table {
+    margin: 0;
+    padding: 0;
+
+    & > * {
+      line-height: 1.5;
+    }
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  thead {
+    font-family: var(--bodyFont);
+    font-weight: 700;
+    background: var(--lightgray);
+  }
+
+  th,
+  td {
+    padding: 0.55rem 0.9rem;
+  }
+
+  th {
+    border-bottom: none;
+  }
+
+  tr:not(:last-child) td {
+    border-bottom: 1px solid var(--lightgray);
+  }
+}
+
+blockquote {
+  border-left-color: var(--lightgray);
+  border-left-width: 4px;
+}
+
+hr {
+  border-color: var(--lightgray);
+}
+
+code {
+  border-radius: 6px;
+}
+
+// Search and the explorer: soft, rounded, like the cards on thetablechurch.life.
+.search > .search-button {
+  border-radius: 999px;
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+}
+
+.explorer .folder-container .folder-title,
+.explorer button.folder-button {
+  font-family: var(--bodyFont);
+}
+
+// Footer: quiet, centered under the content.
+footer {
+  opacity: 1;
+  color: var(--gray);
+  a {
+    color: var(--secondary);
+  }
+}
+
+// Mermaid diagrams: keep them on a cream card in light mode, olive in dark.
+pre:has(> code.mermaid) {
+  background-color: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+}
