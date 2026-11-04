@@ -14,7 +14,7 @@ Power on in this order: stage first, then the amplifier, then the computer. The 
 - [ ] Roland V-Drums VAD504
 - [ ] Roland RD-88 keyboard
 - [ ] Bass amp
-- [ ] Charged batteries in every wireless mic (Shure BLX / PG58), straight from the charger
+- [ ] Charged batteries in every wireless mic (Shure BLX / PG58), straight from the charger. Include the pastor's headset, plus a guest speaker's mic if there is one.
 
 ### 2. Amplifier (back of the room)
 

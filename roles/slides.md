@@ -20,6 +20,16 @@ The band doesn't always play songs the way the recording does. We repeat choruse
 - Come to Wednesday rehearsal if you can. It's the best way to learn the flow.
 - During the song, follow the worship leader, not the slide order. If you're in the wrong spot, click to the right slide. Nobody in the room minds.
 
+## Clicking songs
+
+- **Click on the last word of the line** being sung, so the next line is up before anyone needs it.
+- **Use the section letters.** Each section (verse, chorus, bridge, tag) starts with a small orange letter on its first slide. Press that letter to jump straight to it when the band goes somewhere unexpected.
+- Before service, keep the **welcome loop** running while people arrive.
+
+## Clicking the sermon
+
+The opposite of songs: **wait for the verbal cue.** Click after the pastor makes the point, not before. An early click gives the point away.
+
 ## The three clicks that matter
 
 1. **The first worship slide** starts the service. It changes the lights, looks and camera together.
@@ -28,4 +38,4 @@ The band doesn't always play songs the way the recording does. We repeat choruse
 
 ## Learn more
 
-[[propresenter-basics|ProPresenter basics]] · Print the [[slide-operator-checklist|Slide operator checklist]]
+[[propresenter-basics|ProPresenter basics]] · Shortcuts: `Cmd + ,` opens settings, `Cmd + Opt + 1` opens screen configuration · Print the [[slide-operator-checklist|Slide operator checklist]]

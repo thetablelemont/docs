@@ -1,5 +1,5 @@
 ---
-title: The Table Tech Docs
+title: Tech at The Table
 publish: true
 ---
 

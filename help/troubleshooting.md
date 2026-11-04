@@ -30,11 +30,18 @@ Pull down the fader of the mic that's ringing, then lower that mic's monitor sen
 
 See [[video-routing|Video routing]] for what feeds each screen.
 
+**In ProPresenter:** `Cmd + Opt + 1` opens screen configuration. Check that every screen is assigned and enabled.
+
+## Music is playing and won't stop
+
+The house **Sonos speakers** are separate from the sound system and always on. Control them from the Sonos app on the church Wi-Fi.
+
 ## No camera in ProPresenter
 
 - **Main camera:** check the camera's power and the SDI cable into DeckLink channel 4.
 - **Side camera:** it comes in over NDI, so check that it's on the network.
 - Restart ProPresenter. The startup macro brings the camera back up.
+- Check the camera and audio inputs in ProPresenter's settings (`Cmd + ,`).
 
 ## Video won't play or has no sound
 
