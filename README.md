@@ -13,9 +13,8 @@ How to contribute: `about/editing-these-docs.md`.
 ## Status (2026-11-04)
 
 - Content v1 done: 31 pages and 2 booth PDFs (`./_quartz/print-pdfs.sh` rebuilds them). Local build verified.
-- Owner: GitHub user **TheTableChurch** (confirmed by Keith, 2026-11-04). gh gets signed in on the Table Mac (`ssh table`), not Keith's machines.
+- Owner: GitHub **organization** `thetablelemont`, created from keithdperez (Keith, 2026-11-04). Add future tech leads as org owners. No shared passwords.
 - Not live yet. Remaining:
-  1. On the Table Mac: `gh auth login` as TheTableChurch, create the public repo `TheTableChurch/docs`, push.
+  1. Create the public repo `thetablelemont/docs` and push.
   2. Pages: source = GitHub Actions, custom domain `docs.thetablechurch.life`, enforce HTTPS.
-  3. Add `keithdperez` as a collaborator so Keith's Obsidian Git can push.
-  4. Squarespace DNS: CNAME `docs` → `thetablechurch.github.io`.
+  3. Squarespace DNS: CNAME `docs` → `thetablelemont.github.io`.

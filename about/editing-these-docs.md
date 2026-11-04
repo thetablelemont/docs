@@ -7,7 +7,7 @@ These docs are a folder of Markdown files. Anyone on the team can fix or add to 
 
 ## Getting set up
 
-1. Ask the tech director for access to the GitHub repository.
+1. Make a free [GitHub](https://github.com) account and ask the tech director to add you to the **thetablelemont** organization.
 2. Install [Obsidian](https://obsidian.md) and [GitHub Desktop](https://desktop.github.com).
 3. Clone the repository with GitHub Desktop, then in Obsidian choose **Open folder as vault** and pick it.
 4. Turn on community plugins when Obsidian asks. **Obsidian Git** saves and uploads your changes every few minutes.
