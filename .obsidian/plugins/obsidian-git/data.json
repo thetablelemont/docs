@@ -1,0 +1,11 @@
+{
+  "commitMessage": "docs: update from {{hostname}}",
+  "autoCommitMessage": "docs: update from {{hostname}}",
+  "autoSaveInterval": 5,
+  "autoPushInterval": 0,
+  "autoPullInterval": 10,
+  "autoPullOnBoot": true,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "differentIntervalCommitAndPush": false
+}
