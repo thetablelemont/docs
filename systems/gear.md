@@ -10,11 +10,11 @@ Everything in the room, grouped by system.
 | Item | Model | Notes |
 |---|---|---|
 | Mixer | Behringer XR18 | Controlled over Wi-Fi from Mixing Station |
-| Wireless mics | Shure BLX with PG58 heads | AA batteries |
+| Wireless mics | Shure BLX with PG58 heads | Rechargeable AA batteries, kept on the charger |
 | Stage monitors | 2× Behringer Eurolive F1220D | Powered wedges with EQ knobs on the side |
-| Power amp | Behringer, back of room | Confirm model (EP2000?) |
-| Room speakers | 4× Behringer passive 12" | Two mains by the stage, two delays farther down the room. Confirm model. |
-| Drums | Roland V-Drums | Confirm model (VAD504?) |
+| Power amp | Behringer Europower EP2000 | Back of room. Powers the four room speakers. |
+| Room speakers | 4× Behringer Eurolive B212XL (passive) | Two mains by the stage, two delays farther down the room |
+| Drums | Roland V-Drums VAD504 | |
 | Keyboard | Roland RD-88 | |
 
 ## Video
@@ -22,7 +22,7 @@ Everything in the room, grouped by system.
 | Item | Model | Notes |
 |---|---|---|
 | Computer | Mac mini M2 Pro | Runs ProPresenter and Lightkey |
-| Video card | Blackmagic DeckLink (4 SDI channels) | See [[video-routing\|Video routing]] |
+| Video card | Blackmagic DeckLink Duo 2 | 4 SDI channels, in a StarTech Thunderbolt PCIe enclosure. See [[video-routing\|Video routing]] |
 | Main camera | AVKANS LV20 PTZ | Stage shot, SDI into DeckLink channel 4 |
 | Side camera | AVKANS LV20 PTZ | Comes in over NDI on the network |
 | Audience TVs | 2× (being replaced) | Fed from DeckLink channel 1 through a splitter |
@@ -35,7 +35,7 @@ All video is run over SDI.
 
 | Item | Notes |
 |---|---|
-| Lightkey (Mac) | Lighting control, cued from ProPresenter |
+| Lightkey (Mac) | Lighting control, cued from ProPresenter. Project: **Sunday service** |
 | Stage lamps | 3, switched on by hand |
 
 ## Software
@@ -45,5 +45,6 @@ All video is run over SDI.
 | ProPresenter | Mac mini | Slides, video, cues. Kept on the latest beta. |
 | Lightkey | Mac mini | Lights |
 | Mixing Station | Church iPad | Mixer control |
+| NDI Video Monitor | Mac mini | Checking the side camera's NDI feed |
 | Planning Center | Web and Church Center app | Service plans and scheduling |
 | YouTube Studio | Web | Livestream scheduling |

@@ -17,16 +17,16 @@ The mixer starts each week from a good baseline. Saved channel presets get each 
 
 ## Getting the latest onto the iPad
 
-Mixing Station can back up everything and restore it on another device:
+We move presets with a backup file and AirDrop. No shared login needed.
 
-1. On the master device, tap the gear icon at launch → **Backup / Restore** → back up to a file or to the Mixing Station account.
-2. On the iPad, go to **Backup / Restore** → restore from that file (AirDrop works) or from the account.
+1. **On the master phone:** open Mixing Station, tap the gear icon on the start screen → **Backup / Restore** → back up to a file.
+2. **AirDrop** the file to the church iPad.
+3. **On the iPad:** gear icon → **Backup / Restore** → restore from that file.
+
+Do this whenever presets change. The week of a new player or a big mix change is a good time.
 
 > [!warning] Restoring replaces the iPad's settings
 > Back up the iPad first if it has anything you want to keep.
-
-> [!note] Confirm with Keith
-> Which way we use, file or account, and how often we sync.
 
 ## Learn more
 

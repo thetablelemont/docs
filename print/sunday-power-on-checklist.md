@@ -1,5 +1,5 @@
 ---
-title: Sunday power-on checklist
+title: Sunday power checklist
 publish: true
 ---
 
@@ -9,7 +9,7 @@ publish: true
 - [ ] V-Drums on
 - [ ] RD-88 keyboard on
 - [ ] Bass amp on
-- [ ] Fresh AA batteries in every wireless mic
+- [ ] Charged batteries in every wireless mic
 
 **Back of room**
 - [ ] Power amp on (room speakers)
@@ -29,4 +29,13 @@ publish: true
 - [ ] Today's video plays, with sound
 - [ ] Pastor has checked his slides and mic
 
-Full details: [[power-on-and-off|Power on and off]]
+**After service (power off)**
+- [ ] Power amp off
+- [ ] Drums and keys off
+- [ ] Mute bass channel, **then** bass amp off
+- [ ] Stage lamps off
+- [ ] Mic batteries on the charger
+- [ ] Quit Lightkey, then ProPresenter
+- [ ] TVs off
+
+Full details: [[power-on-and-off|Power on and off]] · [Download PDF](pdf/sunday-power-on-checklist.pdf)

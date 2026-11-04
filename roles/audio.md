@@ -30,7 +30,7 @@ Do this at the start of every rehearsal, Wednesday and Sunday, even when the mix
 ## Gear you'll touch
 
 - XR18 mixer, controlled over Wi-Fi from Mixing Station
-- Shure BLX wireless with PG58 mics (they take AA batteries)
+- Shure BLX wireless with PG58 mics (rechargeable AA batteries, kept on the charger)
 - Two Behringer Eurolive F1220D stage wedges
 - Roland V-Drums and Roland RD-88 keyboard
 - More in [[gear|Gear]]

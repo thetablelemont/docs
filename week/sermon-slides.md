@@ -13,7 +13,7 @@ The highlighting isn't always exact. A reference might be missing, or a passage 
 
 ## Building the slides
 
-1. Download the Google Doc as a PDF and open it on the ProPresenter computer.
+1. Download the Google Doc as a PDF and get it onto the ProPresenter Mac. Working remotely, we connect with the **Screens** app over Tailscale.
 2. Work through the red sections in order.
 3. **Scripture:** use ProPresenter's Bible feature to pull the passage by reference. When he reads a whole passage, add it all at once. If he changes the wording, edit the slide to match what he'll actually say.
 4. **Quotes, lists and takeaways:** build them in the current sermon series theme.

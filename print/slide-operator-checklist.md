@@ -19,4 +19,4 @@ publish: true
 **End**
 - [ ] **Last slide** ends the livestream. Only when service is over.
 
-Full details: [[slides|Slides]]
+Full details: [[slides|Slides]] · [Download PDF](pdf/slide-operator-checklist.pdf)

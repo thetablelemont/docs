@@ -3,7 +3,7 @@ title: Video routing
 publish: true
 ---
 
-ProPresenter on the Mac mini is the center of the video system. Everything goes in and out through a Blackmagic DeckLink card with four SDI channels, plus one camera over the network. All video is run over SDI.
+ProPresenter on the Mac mini is the center of the video system. Everything goes in and out through a Blackmagic DeckLink Duo 2 (four SDI channels, in a Thunderbolt enclosure), plus one camera over the network. All video is run over SDI.
 
 ```mermaid
 flowchart LR
