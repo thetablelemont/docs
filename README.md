@@ -12,9 +12,8 @@ How to contribute: `about/editing-these-docs.md`.
 
 ## Status (2026-11-04)
 
-- Content v1 done: 31 pages and 2 booth PDFs (`./_quartz/print-pdfs.sh` rebuilds them). Local build verified.
-- Owner: GitHub **organization** `thetablelemont`, created from keithdperez (Keith, 2026-11-04). Add future tech leads as org owners. No shared passwords.
-- Not live yet. Remaining:
-  1. Create the public repo `thetablelemont/docs` and push.
-  2. Pages: source = GitHub Actions, custom domain `docs.thetablechurch.life`, enforce HTTPS.
-  3. Squarespace DNS: CNAME `docs` → `thetablelemont.github.io`.
+- **Live** at https://docs.thetablechurch.life (GitHub Pages from `thetablelemont/docs`, HTTPS enforced). Every push to `main` rebuilds; both deploy runs on 2026-11-04 passed.
+- Owner: GitHub organization `thetablelemont`, created from keithdperez (Keith, 2026-11-04). Add future tech leads as org owners. No shared passwords.
+- Replaced the old "Resource Hub" from `keithdperez/thetable` (its Pages site was turned off 2026-11-04; the repo is kept). Its useful content was ported here.
+- Content: 31 pages and 2 booth PDFs (`./_quartz/print-pdfs.sh` rebuilds them).
+- DNS hardening still to do (Squarespace): point the `docs` CNAME at `thetablelemont.github.io` (it still targets keithdperez.github.io, which works but belongs to a person), verify `thetablechurch.life` under the org, and delete the stale `_github-pages-challenge-keithdperez` TXT record.
