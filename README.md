@@ -16,4 +16,4 @@ How to contribute: `about/editing-these-docs.md`.
 - Owner: GitHub organization `thetablelemont`, created from keithdperez (Keith, 2026-11-04). Add future tech leads as org owners. No shared passwords.
 - Replaced the old "Resource Hub" from `keithdperez/thetable` (its Pages site was turned off 2026-11-04; the repo is kept). Its useful content was ported here.
 - Content: 31 pages and 2 booth PDFs (`./_quartz/print-pdfs.sh` rebuilds them).
-- DNS hardening still to do (Squarespace): point the `docs` CNAME at `thetablelemont.github.io` (it still targets keithdperez.github.io, which works but belongs to a person), verify `thetablechurch.life` under the org, and delete the stale `_github-pages-challenge-keithdperez` TXT record.
+- DNS (Squarespace, done 2026-11-04): `docs` CNAME → `thetablelemont.github.io`; `thetablechurch.life` verified under the org (`_github-pages-challenge-thetablelemont` TXT); personal verification removed.
